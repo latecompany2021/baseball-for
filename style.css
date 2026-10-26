@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f3ff;
+    margin: 0;
+    padding: 40px 16px;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.person,
+#fortune-button {
+    padding: 12px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #7557c7;
+    color: white;
+    cursor: pointer;
+}
+
+#fortune-result {
+    margin-top: 24px;
+    text-align: left;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
